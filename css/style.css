@@ -1,0 +1,123 @@
+/*Standart*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+h1{
+    color:#4e4e4e;
+    font-size: 2.5em;
+}
+a{
+    text-decoration: none;
+}
+.white{
+    color:white;
+}
+/*Layout*/
+#header{
+    background: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+#area-logo{
+    padding: 10px;
+}
+#area-menu{
+    padding: 10px;
+}
+#area-menu a:link, #area-menu a:visited{
+    color: #fff;
+    padding: 5px 12px;
+}
+#area-menu a:hover{
+    color: #f7b600;
+    background: #fff;
+}
+#main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+#posts{
+    width: 660px;
+    float: left;
+}
+#side-posts{
+    width: 240px;
+    background: #fff;
+    float: right;
+}
+#footnotes{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+
+}
+/*Main area layout*/
+.post{
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.post h2{
+    font-size: 1.5em;
+    color: #f7b600;
+}
+.post span{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    display: block;
+}
+.post img{
+    width: 620px;
+    margin: 0 20px;
+}
+.post div{
+    padding: 10px 20px;
+    font-size: 1em;
+}
+.post div p{
+    text-align: justify;
+}
+.post div a:link, .post div a:hover, .post div a:visited{
+    display: block;
+    padding: 5px 20px;
+    color: #f7b600;
+    font-weight: bold;
+}
+/*Side posts layout*/
+#side-posts{
+    font-size: 14px;
+    padding: 5px;
+}
+#side-posts h3{
+    color: black;
+    background: lightgrey;
+    font-size: 1.5em;
+    padding: 2px;
+    padding-left: 10px;
+}
+.side-post{
+    margin-top: 15px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid grey;
+}
+.side-post p{
+    padding: 0 5px;
+    margin-top:5px;
+    text-align: justify;
+}
+.side-post a:link, .side-post a:hover, .side-post a:visited{
+    display: block;
+    padding: 0 5px;
+    color: #f7b600;
+    font-weight: bold;
+}
